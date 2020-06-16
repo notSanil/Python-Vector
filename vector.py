@@ -1,3 +1,8 @@
+'''vector.py: Implementation of 2D vectors'''
+
+__author__ = 'Sanil Gupta'
+
+
 from math import atan2, hypot, cos, sin
 
 
