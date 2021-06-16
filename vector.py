@@ -203,7 +203,7 @@ class Vector2D:
 
         :returns Float"""
         if type(vec) == type(self):
-            return hypot(self.x*vec.x, self.y*vec.y)
+            return self.x * vec.x + self.y * vec.y
         else:
             raise TypeError("Expected a Vector2D but got {} instead".format(type(vec)))
 
